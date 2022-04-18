@@ -1,0 +1,186 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+.c_titulo {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.ct_nome {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 41px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #c87137;
+}
+
+.c_menu {
+  display: flex;
+  gap: 16px;
+  padding: 0 32px;;
+}
+
+.cm_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cm_item:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.cm_item:not(:first-of-type):before {
+  content: "|";
+  margin-right: 16px;
+}
+
+.cm_item.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.b_image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tipos_cafe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding: 0 64px;
+}
+
+.coffees {
+  padding: 64px 50px;
+}
+
+.c_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.c_item:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.ci_title {
+  margin-bottom: 32px;
+
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.ci_content {
+  display: flex;
+  gap: 50px;
+}
+
+.cic_description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.cicd_link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: #c87137;
+}
+
+.cicd_link:hover {
+  text-decoration: none;
+}
+
+.about {
+  margin: 64px 0;
+  padding: 0 50px;
+}
+
+.ac_title {
+  margin-bottom: 32px;
+
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.ac_description {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.ac_description:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.maps {
+  margin-top: 64px;
+  display: inline-block;
+}
+
+.m_thumb {
+  max-width: 700px;
+}
+
+.rodape {
+  display: flex;
+  justify-content: flex-end;
+  padding: 34px 64px;
+  background: #c87137;
+  width: 100%;
+}
+
+.r_conteudo {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.rc_link {
+  text-transform: underline;
+  color: #fff;
+}
